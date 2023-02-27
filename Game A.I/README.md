@@ -20,10 +20,10 @@ The winning conditions are summarized below:
 
 6) max_value(self, state, depth, player) - minimax function that determines a given states utility. Each recursive call increases the value of depth, terminating the recursion if either it reaches the tested depth limit or finds a terminal state.
 
-7)
+7) opponent_move(self, move) - validates the opponent's next move.
 
-8)
+8) place_piece(self, move, piece) - modifies the board by placing and/or removing a piece according the destination and source given by the submitted move.
 
-9)
+9) print_board(self) - displays a formatted representation of the board.
 
-10)
+10) game_value(self, state) - checks the current board status, returning a 1 if the A.I. wins, -1 if it loses, and 0 otherwise.
